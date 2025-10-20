@@ -1,0 +1,40 @@
+========================================
+  PUSH TO GITHUB - QUICK GUIDE
+========================================
+
+Repository: https://github.com/KishanRaghav/Jovac-Project.git
+
+STEP 1: Double-click PUSH-TO-GITHUB.bat
+
+STEP 2: Review the changes shown
+
+STEP 3: Type "REPLACE" when prompted
+
+STEP 4: Wait for push to complete
+
+STEP 5: Visit https://github.com/KishanRaghav/Jovac-Project to verify
+
+========================================
+
+What will happen:
+✓ Old project will be completely replaced
+✓ All your latest fixes will be uploaded
+✓ Clean repository with no debug files
+
+Files that will be pushed:
+✓ Backend/ - All backend source code
+✓ Frontend/ - All frontend source code
+✓ README.md
+✓ All launcher scripts (.bat files)
+✓ .gitignore
+
+========================================
+
+IMPORTANT:
+- This will REPLACE the entire remote repository
+- The old version will be overwritten
+- Make sure you want to do this!
+
+========================================
+Ready? Double-click: PUSH-TO-GITHUB.bat
+========================================

@@ -1,0 +1,138 @@
+.header {
+  background: linear-gradient(96deg, #0496ff 30%, #4f8fc9 100%);
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px 24px 20px;
+  box-shadow: 0 6px 32px rgba(40, 100, 200, 0.09);
+  border-radius: 0 0 16px 16px;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-titles {
+  flex: 1;
+  text-align: center;
+}
+
+.header-title {
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 1.7px;
+}
+
+.header-subtitle {
+  font-size: 1.05rem;
+  margin: 13px 0 0 0;
+  opacity: 0.93;
+}
+
+.home-btn {
+  background: #fff;
+  color: #0496ff;
+  font-weight: 600;
+  border: none;
+  border-radius: 7px;
+  padding: 9px 23px;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(10,80,160,0.10);
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.home-btn:hover {
+  background: #f2f6fb;
+  color: #0353a4;
+  box-shadow: 0 4px 14px rgba(4,150,255,0.14);
+}
+
+.header-user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 8px 16px;
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+}
+
+.user-icon {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.user-name {
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: white;
+}
+
+.logout-btn {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-weight: 600;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 7px;
+  padding: 8px 18px;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.logout-btn svg {
+  width: 18px;
+  height: 18px;
+}
+
+.logout-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .header-titles {
+    order: -1;
+  }
+
+  .home-btn {
+    order: 1;
+  }
+
+  .header-user {
+    order: 2;
+  }
+
+  .header-title {
+    font-size: 2rem;
+  }
+
+  .user-name {
+    display: none;
+  }
+}
